@@ -1,0 +1,9 @@
+An successful operation of the shared bike systems lies in the  optimal utilization and management of the resources -- bikes and docking stations. Due to high similarity of riders' travel pattern, bike imbalance problems constantly occur.  Bike sharing users often face two agonizing scenarios: a starting station with empty docks and an ending station fully docked. To address this imbalance, bike sharing operators often have to manually redistribute bikes via trucks or bike-draw trailers among stations. This phenomenon is referred to as rebalancing problem as part of fleet optimization questions.  This problem  motivates data scientists and operation researchers to develop dynamic approaches to optimize the available bikes and open docks while minimizing the operation cost of rebalancing. 
+
+New York Citi Bike provides a rich set of data on trip histories ever since its inception (https://www.citibikenyc.com/system-data), which can be used to study the imbalance problem and to devise appropriate solutions. As initial exploration of the datasets and evaluation of the imbalance problem, I provide the following notebooks and plots:
+
+* `nyc_bike_share_data_exploration.ipynb`: notebook for data exploration.
+* `NYC_citi_bike_depature_arrival_imbalance.ipynb`: notebook departure and arrival imbalance evaluation.
+* `figure1_NYC_bikeshare_no_trips_day_hr.png``: number of aggregated trips by day of the week and by hour of the day for September 2019.
+* `NYC_bike_share_station_imbalance_analysis.html`: interactive visualization of aggregated departure and arrival imbalance at 6PM for the month of September 2019.
+The orange and green circles denote the net departure and arrivals, respectively. The radius of the circle is proportional to the number of of net departures and arrivals. The bike station name and departure and arrival numbers are displayed by clicking the circles.
